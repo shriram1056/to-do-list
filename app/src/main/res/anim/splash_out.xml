@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="false">
+    <!-- If fillAfter is true, the transformation that this animation performed will persist when
+    it is finished. so, set it to false if you want to make changes to view or it will be problem,if you
+     want to make the view invisible-->
+    <scale
+        android:duration="500"
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1.5"
+        android:toYScale="1.5"/>
+     <!-- x axis 50 % is in the middle of the view. y axis 50% in the middle of the view.stack overflow -->
+    <alpha
+        android:duration="500"
+        android:fromAlpha="1"
+        android:toAlpha="0" />
+</set>

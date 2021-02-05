@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/colorPrimary"/>
+    <!-- background color -->
+    <foreground android:drawable="@drawable/ic_launcher_foreground"/>
+    <!-- this the icon without background -->
+    <!-- If you look in your mipmap folder, you see your normal 5 different launcher icons which
+    will be used for anything lower than SDK 26. For SDK 26 and up, it uses the XML files from
+     the any dpi-v26 folder to make use of adaptive icon.
+      if there is no any dpi then there wont't be icon in api 26 and above-->
+</adaptive-icon>
